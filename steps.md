@@ -2,7 +2,9 @@
 
 ## installing packages
 run in terminal ->
+
 npm init -y
+
 npm install express ejs express-ejs-layouts method-override
 
 mkdir views routes static 
