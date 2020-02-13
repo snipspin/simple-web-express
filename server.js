@@ -15,5 +15,6 @@ app.use(express.urlencoded({extended: false}));
 app.use(methodOverride('_method'));
 
 app.use('/', require('./routes/frontpage'));
+app.use('/*', require('./routes/error'));
 
 app.listen(port, ()=> console.log(`🎧 on port ${port}`));
